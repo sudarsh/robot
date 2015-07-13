@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20150713 23:31:45.601" generator="Robot 2.8.7 (Python 2.7.6 on darwin)">
+<suite source="/Users/Sudarsh/project/robot/test.txt" id="s1" name="Test">
+<test id="s1-t1" name="Valid Login">
+<kw type="kw" name="Open Browser To Login Page">
+<doc></doc>
+<arguments>
+</arguments>
+<msg timestamp="20150713 23:31:45.655" level="FAIL">No keyword with name 'Open Browser To Login Page' found.</msg>
+<status status="FAIL" endtime="20150713 23:31:45.655" starttime="20150713 23:31:45.655"></status>
+</kw>
+<kw type="teardown" name="Close Browser">
+<doc></doc>
+<arguments>
+</arguments>
+<msg timestamp="20150713 23:31:45.659" level="FAIL">No keyword with name 'Close Browser' found.</msg>
+<status status="FAIL" endtime="20150713 23:31:45.659" starttime="20150713 23:31:45.659">No keyword with name 'Close Browser' found.</status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="FAIL" endtime="20150713 23:31:45.659" critical="yes" starttime="20150713 23:31:45.651">No keyword with name 'Open Browser To Login Page' found.
+
+Also teardown failed:
+No keyword with name 'Close Browser' found.</status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="FAIL" endtime="20150713 23:31:45.660" starttime="20150713 23:31:45.602"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" pass="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
